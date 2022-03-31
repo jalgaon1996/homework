@@ -1,0 +1,128 @@
+Command for---git bash
+
+pwd - present working directory
+
+mkdir folder1  ----new folder created 
+
+
+cd folder1  --- setting a directory
+
+
+pwd
+
+
+cd .. ----- go back to pervious folder
+
+
+ls----list of file in folder
+
+
+clear
+
+git config --global user.name "abc"
+
+
+git config --global user.email "abc@gmail.com"
+
+git clone  ---->{link of reprositry)
+
+
+git status
+
+
+git add t1.txt
+
+git status 
+
+
+git commit -m "Label" 
+    
+
+{Branch}
+git pull origin B1
+
+
+git branch
+
+git checkout B1-----changing branch to B1
+
+
+[creating a new branch from local machine]
+
+
+ git branch newb1 
+
+
+git checkout newb1
+
+
+git push/pull origin newb1
+
+
+git diff
+
+
+git diff --stage
+
+=================================================================
+git merge <branch Name>
+
+git branch -d <branchname>   [if branches have sucessfully merge]
+
+git branch -D <branchname>    [forcefull deletion]
+
+git push origin --delete <branchname>   
+
+
+=================================================================
+
+{ Creating a new repositry from local machine}
+{ first create a new folder}
+
+
+git init -->initialization
+
+
+ls -a     [hidden files]
+
+git branch -M main  <-- Name change
+
+---add a file, then commit a below cmd and then push
+
+ git remote add origin https://github.com/123-kartik/Local-repositry.git
+
+===============================
+git reset -----<only add command is run>
+
+
+git revert <commit log id>-----<commit is done to revert it>
+
+from---
+git log 
+
+
+===========================================
+to remove the file from the git working directory
+
+git rm t1.txt
+
+git status
+
+=================================================
+>>>>>>>>>>>>>>>Stash command
+
+git stash  -----------> to save some change on immediate basis
+
+git stash pop ----->use revert back the position were the stash to it
+
+
+
+=================================================
+
+    git pull origin master --allow-unrelated-histories
+
+
+=================================================
+
+
+{esc---Colon--w-q}=======for exit
